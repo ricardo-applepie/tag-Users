@@ -1,0 +1,17 @@
+.user-box {
+  width: 400px;
+  background: white;
+}
+.users-box__list {
+  list-style: none;
+}
+
+.users-box__item:hover {
+  background-color: black;
+  color: white;
+}
+
+input {
+  width: 700px;
+  height: 40px;
+}
