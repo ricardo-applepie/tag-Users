@@ -25,14 +25,11 @@ const App = (props) => {
     var oldInputValue = inputValue;
     var userName = user;
     var position = indexPosition;
-    console.log(oldInputValue.slice(0, position + 1), "username");
-
     var newInputValue = [
       oldInputValue.slice(0, position + 1),
       userName,
       oldInputValue.slice(position + 1)
     ].join("");
-    console.log(position);
 
     setInputValue(newInputValue);
     setIndexposition(0);
