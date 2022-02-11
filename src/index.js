@@ -6,7 +6,7 @@ import "./index.css";
 // Functional component
 
 // Main App component
-// renders a list of Messages using data from messages.json
+
 const App = (props) => {
   let [taggedUsersBoxVissible, setTaggedUsersBoxVissible] = useState(false);
   let [users, setUsers] = useState(["Ricardo", "Julia", "Frederik"]);
