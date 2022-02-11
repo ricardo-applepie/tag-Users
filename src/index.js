@@ -10,7 +10,7 @@ const App = (props) => {
   let [taggedUser, setTaggedUser] = useState("");
   let [inputValue, setInputValue] = useState("");
   let [userPressedAtKey, setUserPressedAtKey] = useState(false);
-  let [indexPosition, setIndexpostion] = useState(0);
+  let [indexPosition, setIndexposition] = useState(0);
 
   function handleInputChange(e) {
     setInputValue(e.target.value);
@@ -35,14 +35,14 @@ const App = (props) => {
     console.log(position);
 
     setInputValue(newInputValue);
-    setIndexpostion(0);
+    setIndexposition(0);
   }
 
   function handleKeyDown(event) {
     if (event.key === "@") {
       setUserPressedAtKey(true);
       let stringIndex = getSelectedPositionIndex(event.target);
-      setIndexpostion(stringIndex);
+      setIndexposition(stringIndex);
       setTaggedUsersBoxVissible(true);
       return;
     }
