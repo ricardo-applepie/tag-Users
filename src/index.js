@@ -7,7 +7,7 @@ import "./index.css";
 const App = (props) => {
   let [taggedUsersBoxVissible, setTaggedUsersBoxVissible] = useState(false);
   let [users, setUsers] = useState(["Ricardo", "Julia", "Frederik"]);
-  let [taggedUsers, setTaggedUser] = useState("");
+  let [taggedUser, setTaggedUser] = useState("");
   let [inputValue, setInputValue] = useState("");
   let [userPressedAtKey, setUserPressedAtKey] = useState(false);
   let [indexPosition, setIndexpostion] = useState(0);
