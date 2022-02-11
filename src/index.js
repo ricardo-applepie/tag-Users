@@ -1,9 +1,6 @@
 import React, { useState } from "react";
 import { render } from "react-dom";
-import * as data from "./messages.json";
 import "./index.css";
-
-// Functional component
 
 // Main App component
 
